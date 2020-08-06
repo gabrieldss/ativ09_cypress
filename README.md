@@ -1,1 +1,1 @@
-# ativ09_cypress
+# Atividade 9 - Teste de GUI (Cypress)
