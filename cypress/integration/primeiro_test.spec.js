@@ -20,5 +20,7 @@ describe('Calculadora de imposto', () => {
         cy.get('[name=sexo]').select('M');
         cy.get('[name=salario]').type('2500');
         cy.get(`[value='Calcular']`).click();
+
+        cy.get('[id=divValorImposto]').should('have.text', 'Valor a pagar de imposto: 375');
     });
 });
